@@ -1,0 +1,52 @@
+/* 1.背景图片 */
+.detail-container{
+  height:400rpx;  /*背景高度*/
+  opacity: .9;    /*透明度*/
+  filter:blur(40rpx);/*模糊滤镜*/
+}
+/* 2.遮罩层*/
+.detail-mask{
+  width:100%;/*遮罩层填满父元素*/
+  height: 400rpx;
+  background: #333;/*背景色*/
+  position: absolute;/*定位*/
+  left:0;/*左侧与顶部*/
+  top:0;
+  z-index:-1;
+}
+/* 3.电影详细信息 */
+.detail-info{
+  position: absolute;/*绝对定位*/
+  top:0;
+  left:0;
+  width:100%;/*宽度填满整个父元素*/
+  height:400rpx;
+  display: flex;/*弹性布局*/
+  padding:20rpx;/*四个边加内边距*/
+}
+/* 4.图片大小 */
+.detail-img{
+  width:280rpx;/*左侧图片宽度*/
+  height:90%;
+  margin-right: 24rpx;/*右侧间距文字*/
+}
+/* 5.右侧区域电影内容*/
+.detail{
+  line-height: 60rpx;/*行高*/
+}
+.detai view{
+  color:#fff;/*电影介绍文字*/
+  font-size:24rpx;
+}
+/* 6.分数 */
+.detail .detail-sc{
+  color: #fc0;
+  font-size:36rpx;
+}
+/* 7.电影描述 */
+.desc{
+  color: #555;
+  font-size:24rpx;
+  padding:20rpx;
+}
+
